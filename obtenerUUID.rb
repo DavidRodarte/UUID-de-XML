@@ -20,8 +20,7 @@ class ArchivosXML
     end
   end
 end
-#########################################
-def main
+
   #Borrar el contenido del archivo de texto, w para reescribir
   File.open("UUID.txt", "w") { |archivo| archivo.print ""}
   puts "\n"
@@ -29,6 +28,3 @@ def main
   uuid.leerUUID
   puts "\n \n_______________ Presiona ENTER para salir _______________"
   i = gets.chomp i
-end
-#########################################
-main
