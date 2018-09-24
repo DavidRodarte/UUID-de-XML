@@ -1,5 +1,5 @@
 # UUID-de-XML
-Programa simple hecho en Ruby para obtener los UUID de todos los archivos XML dentro de un directorio.
+Programa hecho en Ruby para obtener los UUID de todos los archivos XML dentro de un directorio.
 El programa generará un archivo de texto con los UUID obtenidos.
 ###
 ## Instrucciones
